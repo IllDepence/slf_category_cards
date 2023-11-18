@@ -30,7 +30,7 @@ Bei *Stadt, Land, Fluss* kann es dauern, bis man sich Kategorien ausgedacht bzw.
 
 ## What is this?
 
-*Stadt, Land, Fluss* is the German name of a Game basically identical to what’s known in English as *Scattergories*. This repository provides cards that depict categories for the game.
+*Stadt, Land, Fluss* is the German name of a game basically identical to what’s known in English as *Scattergories*. This repository provides cards that depict categories for the game.
 
 ## Idea
 
