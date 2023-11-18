@@ -17,6 +17,12 @@ Bei *Stadt, Land, Fluss* kann es dauern, bis man sich Kategorien ausgedacht bzw.
 * **SVG**
     * In `svg/` liegen die „Rohdaten“ für die Kartenvorderseite, -rückseite, sowie die Box
     * Erstellt mit Inkscape
+* **Fotos*
+    * [Box](img/00.jpg)
+    * [Rückseite](img/01.jpg)
+    * [SLF-Karten](img/02.jpg)
+    * [Kategoriekarten (A)](img/03.jpg)
+    * [Kategoriekarten (B)](img/04.jpg)
 
 ---
 
@@ -39,3 +45,9 @@ When deciding to play *Stadt, Land, Fluss* it can take quite some time to think 
 * **SVG**
     * `svg/` contains the “raw data” for the card fonts, back, as well as the card box
     * Created in Inkscape
+* **Photos*
+    * [Card box](img/00.jpg)
+    * [Card back](img/01.jpg)
+    * [SLF cards](img/02.jpg)
+    * [Category cards (A)](img/03.jpg)
+    * [Category cards (B)](img/04.jpg)
