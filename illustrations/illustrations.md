@@ -5,6 +5,8 @@
 * All illustrations were created using ChatGPT (GPT-4) with DALL·E 3 between Oct 29 and Nov 12 2023.
 * Because the DALL·E backend changed within this time frame ([see OpenAI forum thread](https://community.openai.com/t/after-upgrade-seeds-doesnt-work-generation-id-is-introduced/462161)) there’s no common set of parameters retrievable. For the some it would be a `seed`, for others a `generation_id`. For the moment I therefore opted to just gather all the prompts used and list them below.
 * In most of the generated images the square base dropped a shadow on the white background. I removed them manually to make the cards visually more consistent.
+* The images below are downscaled. You can find the full-scale versions in the `pdf/` and `svg/` directories of the repository.
+* All images are licensed [CC-BY-SA](https://creativecommons.org/licenses/by-sa/4.0/)
 
 ### Overview
 
