@@ -45,7 +45,7 @@ When deciding to play *Stadt, Land, Fluss* it can take quite some time to think 
 * **SVG**
     * `svg/` contains the “raw data” for the card fonts, back, as well as the card box
     * Created in Inkscape
-* **Photos*
+* **Photos**
     * [Card box](img/00.jpg)
     * [Card back](img/01.jpg)
     * [SLF cards](img/02.jpg)
