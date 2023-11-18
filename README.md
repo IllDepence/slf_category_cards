@@ -17,7 +17,7 @@ Bei *Stadt, Land, Fluss* kann es dauern, bis man sich Kategorien ausgedacht bzw.
 * **SVG**
     * In `svg/` liegen die „Rohdaten“ für die Kartenvorderseite, -rückseite, sowie die Box
     * Erstellt mit Inkscape
-* **Fotos*
+* **Fotos**
     * [Box](img/00.jpg)
     * [Rückseite](img/01.jpg)
     * [SLF-Karten](img/02.jpg)
