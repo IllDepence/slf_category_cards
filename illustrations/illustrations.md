@@ -91,7 +91,7 @@ Name: **sportart** / type of sport
 Prompt: `Illustration set in an isometric square floating on a white backdrop. The scene, inspired by a medieval ambiance, showcases three individuals: a European archer taking aim with his bow, a weightlifter of Hispanic descent showcasing his strength by lifting a massive weight, and a ballet dancer of Middle Eastern descent elegantly dancing in the center. The entire scene is adorned with vivid colors, and the characters are depicted with stylized, simplified details in line with the medieval art style.`
 
 ![](kleidungsstueck.png)  
-Name: **kleidungsstueck** / clothing item  
+Name: **kleidungsstück** / clothing item  
 Prompt: `Illustration depicting an isometric view of a medieval-styled room on a floating quadratic plate against a stark white backdrop with no shadow. In this room, a young woman is exploring a collection of different clothing options. She holds up a dress while examining it, and around her are other medieval garments spread out. The scene is filled with bright, saturated hues, and the designs are smooth and rounded, exuding a sense of warmth and coziness.`
 
 ![](fiktives_werk.png)  
@@ -123,11 +123,11 @@ Name: **straftat** / crime
 Prompt: `Illustration of an isometric square floating against a pure white background. On the square, a scene of pickpocketing on a small street in an ancient Rome setting is depicted. The pickpocket, wearing a torn hooded robe, is fleeing from a Roman soldier in full armor and helmet. The pickpocket is the main focus, with both characters clearly visible. The colors are bright and saturated, the shapes smooth and rounded, exuding a sense of warmth and coziness.`
 
 ![](waerung.png)  
-Name: **waerung** / currency  
+Name: **währung** / currency  
 Prompt: `Isometric view illustration on a floating square set in a medieval theme. Displayed on the square are various coins of different materials and designs, with some coins stacked upon each other. Next to the coins is an antique wooden bar scale, reminiscent of medieval times. The entire scene is placed against a pristine white background.`
 
 ![](fluessigkeit.png)  
-Name: **fluessigkeit** / liquid  
+Name: **flüssigkeit** / liquid  
 Prompt: `Illustration of an isometric square floating in a white background. The square portrays a medieval setting with a piece of land that has a flowing stream of water. On this land, there's a bottle of milk placed next to a small puddle of lava. Nearby, there's a glass filled with red wine. The colors are bright and saturated, with smooth, rounded shapes giving a soft and friendly appearance.`
 
 ![](fortbewegungsmittel.png)  
@@ -143,7 +143,7 @@ Name: **behälter** / container
 Prompt: `Illustration showing a floating isometric square with no shadow, set in a medieval theme. Upon the square are a variety of containers playfully organized. These include a large wooden barrel, a tall metal jug, a small clay pot, and a woven basket, each differing in size and material. The overall design is characterized by bright, saturated colors, smooth, rounded forms, and a stylized, simplified appearance, all contributing to a sense of wonder and warmth.`
 
 ![](himmelskoerper.png)  
-Name: **himmelskoerper** / celestial body  
+Name: **himmelskörper** / celestial body  
 Prompt: `Illustration set within a floating isometric square in a medieval art style. Depicting the cosmos as imagined in ancient times, the scene includes the sun, Saturn with its distinct rings, a moon, and a comet. Each celestial body has indications of their trajectories, reminiscent of old depictions where the heavens are visualized as a half-circle enclosure above the Earth. The overall design should convey the charm of antique astronomical drawings with a playful and imaginative setting.`
 
 ![](bauwerk.png)  
@@ -151,11 +151,11 @@ Name: **gebäudeart** / type of building
 Prompt: `Illustration depicting a floating isometric square set in a medieval ambiance. This square holds four distinct structures: a vibrant church with rounded features, a stone prison with barred windows, a simple wooden hut with a thatched roof, and a stable fit for animals. The design is characterized by bright colors, stylized forms, and an absence of intricate details, all set against a stark white backdrop.`
 
 ![](stomquelle.png)  
-Name: **stomquelle** / source of electricity  
+Name: **stromquelle** / source of electricity  
 Prompt: `An isometric illustration of a floating square against a white backdrop, featuring a medieval theme. This square depicts a piece of land under a damp atmosphere with a thunderstorm cloud overhead from which realistic lightning is striking down. An electric eel is residing within a small pond on this land. Additionally, there is a lemon placed upon a small patch of dirt, with a piece of zinc and copper sticking out of the lemon. The illustration has saturated colors and a stylized, layered composition that evokes a sense of wonder and imagination.`
 
 ![](tier_faehigkeit.png)  
-Name: **tierische faehigkeit** / animal ability  
+Name: **tierische fähigkeit** / animal ability  
 Prompt: `Illustration of an isometric square floating against a pure white background. Within the square, a bioluminescent jellyfish in a medieval underwater setting is depicted. The swift creature is surrounded by an aura of soft, glowing light, illuminating a sunken treasure chest and scattered coins on the ocean floor. Corals in the backdrop add to the mysterious ambiance. The light from the bioluminescent creature casts a serene glow on its surroundings, creating a contrast with the dark depths of the sea. The colors are bright and saturated, highlighting the luminous blues, greens, and purples of the creature and its environment. The shapes are smooth and rounded, capturing the fluidity of underwater life. The entire scene exudes warmth and coziness, turning a deep-sea scenario into a comforting and enchanting spectacle. The background is pure white.`
 
 ![](chemisches_element.png)  
@@ -203,23 +203,23 @@ Name: **zeitspanne** / time span
 Prompt: `Illustration of an isometric square floating against a pure white background, featuring a wooden tabletop in a medieval setting. At the center of the tabletop stands a solitary candle with finely etched time markings spiraling around it, casting a warm, gentle glow. The candle's melting wax forms small puddles at its base, symbolizing the flow of time. Beside the candle is a graceful hourglass made of aged oak with golden sand flowing between its two glass bulbs. The scene is minimalist, emphasizing the beauty of these ancient timekeepers. The colors are bright and saturated, with smooth, rounded shapes, creating an atmosphere of warmth and coziness.`
 
 ![](naturphaenomen.png)  
-Name: **naturphaenomen** / natural phenomenon  
+Name: **naturphänomen** / natural phenomenon  
 Prompt: `Illustration in an isometric view of a piece of land on a floating quadratic plate against a white background. The land, set in a medieval style, showcases three distinct natural phenomena: rain pouring down, a massive tidal wave approaching, and the mesmerizing aurora borealis lighting up the sky. The scene should have bright, saturated colors with smooth, rounded shapes to maintain a soft, friendly, and imaginative ambiance.`
 
 ![](naturkratastrophe.png)  
-Name: **naturkratastrophe** / natural disaster  
+Name: **naturkatastrophe** / natural disaster  
 Prompt: `Illustration of an isometric square floating against a pure white background. The square contains a small patch of prehistoric land, capturing the moment of an asteroid's impact during the dinosaur extinction event. The impact site glows with fiery red and orange hues, signifying intense heat. Dinosaurs nearby are depicted running away, startled by the cataclysm. The landscape shows cracks, upheavals, broken and burning trees, reflecting the impact's force. Despite the dramatic moment, the composition retains smooth lines, rounded forms, and a stylized, coherent visual language. The colors are bright and saturated, with warm and cozy overtones. The background is pure white.`
 
 ![](naturkratastrophe_2.png)  
-Name: **naturkratastrophe** / natural disaster  
+Name: **naturkatastrophe** / natural disaster  
 Prompt: `Illustration of an isometric square floating against a pure white background. Within the square, a small patch of futuristic land is depicted, capturing the moment of an asteroid's impact on human colonized Saturn. The impact site glows with fiery violet and red hues, signifying intense heat. Human Saturn dwellers nearby are shown running away, startled by the cataclysm. The landscape features cracks, upheavals, and space huts that are broken and burning, reflecting the impact's force. Despite the dramatic moment, the composition retains smooth lines, rounded forms, and a stylized, coherent visual language. The colors are bright and saturated, with warm and cozy overtones. The background is pure white.`
 
 ![](naturkratastrophe_3.png)  
-Name: **kratastrophe** / catastrophe  
+Name: **katastrophe** / catastrophe  
 Prompt: `Illustration of an isometric square floating against a pure white background. Within the square, a layered wedding cake is depicted. The scene captures the moment of asteroid impacts on the cake's top layer. The impact area glows with fiery orange and yellow hues, signifying intense heat. The chocolate bride in the vicinity is depicted melting away, caught off-guard by the sudden cataclysm. The icing is marked with cracks and upheavals, and marzipan ornaments are shown broken and burning reflecting the force of the impact. The scene conveys the chaos and severity of the event. Despite the dramatic moment, the composition retains smooth lines, rounded forms, and a stylized, coherent visual language. The colors are bright and saturated, with warm and cozy overtones. The background is pure white.`
 
 ![](naturkratastrophe_4.png)  
-Name: **kratastrophe** / catastrophe  
+Name: **katastrophe** / catastrophe  
 Prompt: `Illustration of an isometric square floating against a pure white background. Within the square, a layered wedding cake is depicted. The scene captures the moment of a UFO crashing into the cake's top layer. The impact area glows with fiery orange and yellow hues, signifying intense heat. The chocolate bride and groom figures are pulverized, caught off-guard by the sudden cataclysm. The icing shows cracks and upheavals, with marzipan ornaments broken and burning, reflecting the impact's force. Despite the dramatic moment, the composition retains smooth lines, rounded forms, and a stylized, coherent visual language. The colors are bright and saturated, with warm and cozy overtones. The background is pure white.`
 
 ![](rnd.png)  
