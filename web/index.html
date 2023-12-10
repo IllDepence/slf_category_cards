@@ -5,35 +5,41 @@
   body {
     background-color: #fafafa;
   }
+  #deck {
+    grid-column: 1;
+    grid-row: 1;
+  }
   /* default 3 columns */
-  #open_cards {
+  #card_grid {
     width: 1177px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 389px);
     gap: 5px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
   }
   /* two columns for screens narrower than (width of 3 cols + 10px) */
   @media screen and (max-width: 1190px) {
-    #open_cards {
+    #card_grid {
       width: 783px;
       grid-template-columns: repeat(2, 389px);
     }
   }
   /* single column for screens narrower than (width of 2 cols + 10px) */
   @media screen and (max-width: 803px) {
-    #open_cards {
+    #card_grid {
       width: 389px;
       grid-template-columns: repeat(1, 389px);
     }
   }
   /* shrinked single column for screens smaller than img with */
   @media screen and (max-width: 399px) {
-    #open_cards {
+    #card_grid {
       width: 100%;
       grid-template-columns: repeat(1, 100%);
     }
-    #open_cards img {
+    #card_grid img {
       width: 100%;
       height: auto;
     }
@@ -41,13 +47,117 @@
   </style>
 </head>
 <body>
-  <div id="open_cards">
-    <img src="card_imgs_600px/karte_back.png">
-    <img src="card_imgs_600px/karte_stadt.png">
-    <img src="card_imgs_600px/karte_land2.png">
-    <img src="card_imgs_600px/karte_fluss.png">
-    <img src="card_imgs_600px/karte_berg3.png">
-    <img src="card_imgs_600px/karte_sport.png">
+  <div id="card_grid">
+    <img id="deck" src="card_imgs_600px/karte_back.png">
   </div>
 </body>
+
+<script>
+cats = [
+  'behaelter',
+  'berg',
+  'berg2',
+  'berg3',
+  'beruf',
+  'beruf2',
+  'beruf3',
+  'buch',
+  'chem_element',
+  'chem_element2',
+  'etw_das_fliegt',
+  'etw_das_fliegt2',
+  'etw_rundes',
+  'etw_rundes2',
+  'fiktives_werk',
+  'fluessigkeit',
+  'fluss',
+  'forbewegungsmittel',
+  'gebaeude',
+  'gestein',
+  'gruppenbezeichnung',
+  'gruppenbezeichnung2',
+  'himmelskoerper',
+  'kleidung',
+  'krankheit',
+  'land',
+  'land2',
+  'marke',
+  'nautrphaenomen',
+  'naturkatastrophe',
+  'naturkatastrophe2',
+  'naturkatastrophe3',
+  'naturkatastrophe4',
+  'pflanze',
+  'promi',
+  'spiel',
+  'sport',
+  'sprache',
+  'stadt',
+  'straftat',
+  'stromquelle',
+  'tierfaehigkeit',
+  'tier',
+  'tier2',
+  'waehrung',
+  'waffe',
+  'werkzeug',
+  'zeitspanne',
+  'zeitspanne2',
+]
+// create click listener on the card deck to draw cards
+document.getElementById('deck').addEventListener('click', function() {
+  var grid = document.getElementById('card_grid');
+  // get random category and remove it from the list
+  var cat = cats[Math.floor(Math.random() * cats.length)];
+  cats.splice(cats.indexOf(cat), 1);
+  // if no more cards are left, remove the deck
+  if (cats.length == 0) {
+    document.getElementById('deck').remove();
+  }
+  // pre-load card_front image
+  card_src = 'card_imgs_600px/karte_' + cat + '.png';
+  var img = new Image();
+  img.src = card_src;
+  // create new card (back first)
+  card_back_src = 'card_imgs_600px/karte_back.png';
+  var card_back = document.createElement('img');
+  card_back.src = card_back_src;
+  // insert card back into the grid
+  if (cats.length == 0) {
+    grid.insertBefore(card_back, grid.children[0]);
+  } else if (grid.children.length == 1) {
+    grid.appendChild(card_back);
+  } else {
+    grid.insertBefore(card_back, grid.children[1]);
+  }
+  // first half of card flip
+  card_back.style.transformStyle = 'preserve-3d';
+  card_back.style.transform = 'rotateY(0deg)';
+  card_back.style.transition = 'transform 0.5s';
+  setTimeout(() => {
+      card_back.style.transform = 'rotateY(90deg)';
+  }, 50);
+  setTimeout(() => {
+      card_back.remove();
+  }, 550);
+  // second half of card flip
+  var card = document.createElement('img');
+  card.src = card_src;
+  card.style.transformStyle = 'preserve-3d';
+  card.style.transform = 'rotateY(-90deg)';
+  card.style.transition = 'transform 0.5s';
+  setTimeout(() => {
+      if (cats.length == 0) {
+        grid.insertBefore(card, grid.children[0]);
+      } else if (grid.children.length == 1) {
+        grid.appendChild(card);
+      } else {
+        grid.insertBefore(card, grid.children[1]);
+      }
+      setTimeout(() => {
+          card.style.transform = 'rotateY(0deg)';
+      }, 50);
+  }, 550);
+});
+</script>
 <html>
