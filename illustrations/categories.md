@@ -72,161 +72,161 @@
 ### Kleidungsstück
 ![](kleidungsstueck.png)
 
-* valide: Cargohose, Yukata, Zipfelmütze
+* valide: Jogginghose, Strohhut, Schal<!--Cargohose, Yukata, Zipfelmütze-->
 * invalide: Superman-Kostüm, Rammstein-T-Shirt, Ziegenfell-Jacke
 
 ### Fiktives Werk
 ![](fiktives_werk.png)
 
-* valide: Quiet Earth, Yogi Bär, Zauberlehrling
+* valide: Star Wars, Krieg und Frieden, Pokemon<!--Quiet Earth, Yogi Bär, Zauberlehrling-->
 * invalide: Eine kurze Geschichte der Zeit, Heiliger Krieg, Tagesschau
 
 ### Buch
 ![](buch.png)
 
-* valide: Carrie, Catch-22, Vom Winde verweht
+* valide: Die Bibel, Hamlet, Alice im Wunderland<!--Carrie, Catch-22, Vom Winde verweht-->
 * invalide: Kindle, New York Times, Zur Elektrodynamik bewegter Körper
 
 ### Spiel
 ![](spiel.png)
 
-* valide: Cego, Qwirkle, Yahtzee
+* valide: Schach, Poker, Monopoly<!--Cego, Qwirkle, Yahtzee-->
 * invalide: Lego, Telefonstreich, Weitsprung
 
 ### Sprache
 ![](sprache.png)
 
-* valide: Japanisch, Quechua, Zulu
+* valide: Deutsch, Englisch, Spanisch<!--Japanisch, Quechua, Zulu-->
 * invalide: Bolivianisch, Indisch, Plattdeutsch
 
 ### Werkzeug
 ![](werkzeug.png)
 
-* valide: Quirl, Quadrant, Zange
+* valide: Hammer, Zange, Feile<!--Quirl, Quadrant, Zange-->
 * invalide: Bosch-Flex, Hand, Leatherman
 
 ### Waffe
 ![](waffe.png)
 
-* valide: Chakram, Claymore, Zweihänder
+* valide: Schwert, Pistole, Bombe<!--Chakram, Claymore, Zweihänder-->
 * invalide: Faust, Glasscherbe, Stift
 
 ### Straftat
 ![](straftat.png)
 
-* valide: Computerbetrug, Vandalismus, Zuhälterei
+* valide: Dienbstahl, Mord, Steuerhinterziehung<!--Computerbetrug, Vandalismus, Zuhälterei-->
 * invalide: Bananen-Diebstahl, Lügen, Supermarkt-Einbruch
 
 ### Währung
 ![](waerung.png)
 
-* valide: Colón, Jamaika-Dollar, Vatu
+* valide: Euro, US-Dollar, Rubel<!--Colón, Jamaika-Dollar, Vatu-->
 * invalide: Credits, Goldstücke, Scheine
 
 ### Flüssigkeit
 ![](fluessigkeit.png)
 
-* valide: Chloroform, Quecksilber, Öl
+* valide: Wasser, Benzin, Tinte<!--Chloroform, Quecksilber, Öl-->
 * invalide: Apfelsaft, Pepsi, Stickstoff
 
 ### Fortbewegungsmittel
 ![](fortbewegungsmittel.png)
 
-* valide: Quad, Yacht, Zeppelin
+* valide: Fahrrad, Auto, Flugzeug<!--Quad, Yacht, Zeppelin-->
 * invalide: Jeep, Mitfahrgelegenheit, Uber
 
 ### Krankheit
 ![](krankheit.png)
 
-* valide: Cholera, COVID-19, Zöliakie
+* valide: Malaria, Krebs, Lepra<!--Cholera, COVID-19, Zöliakie-->
 * invalide: Juckreiz, Knochenbruch, Rücken
 
 ### Behälter
 ![](behaelter.png)
 
-* valide: Jutebeutel, Zeitkapsel, Zündholzschachtel
+* valide: Becher, Rucksack, Container<!--Jutebeutel, Zeitkapsel, Zündholzschachtel-->
 * invalide: Mund, Samsonite-Koffer, Zimmer
 
 ### Himmelskörper
 ![](himmelskoerper.png)
 
-* valide: 
-* invalide: 
+* valide: Mars, Mond, Milchstraße
+* invalide: Wolke, Gasriese, Schwarzes Loch
 
 ### Gebäudeart
 ![](bauwerk.png)
 
-* valide: 
-* invalide: 
+* valide: Wohnhaus, Bahnhof, Wolkenkratzer
+* invalide: Pentagon, Wohnsieldung, Designerhaus
 
 ### Stromquelle
 ![](stomquelle.png)
 
-* valide: 
-* invalide: 
+* valide: elektrischer Aal, Dynamo, Batterie
+* invalide: Duracell, Ladekabel, Flux-Kondensator
 
 ### Tierische Fähigkeit
 ![](tier_faehigkeit.png)
 
-* valide: 
-* invalide: 
+* valide: Fliegen, Echolokation, Biolumineszenz
+* invalide: Feuerspeien, Unsichtbarkeit, Laufen
 
 ### Chemisches Element
 ![](chemisches_element.png) ![](chemisches_element_2.png)
 
-* valide: Quecksilber, Xenon, Yttrium
+* valide: Wasserstoff, Helium, Eisen<!--Quecksilber, Xenon, Yttrium-->
 * invalide: Messing, Unobtainium, Wasser
 
 ### Gesteinsart
 ![](gestein.png)
 
-* valide: 
-* invalide: 
+* valide: Marmor, Smaragd, Kohle
+* invalide: Beton, Fels, Kiesel
 
 ### Etwas das Fliegt
 ![](etwas_das_fliegt.png) ![](etwas_das_fliegt_2.png)
 
-* valide: 
-* invalide: 
+* valide: Biene, Flugzeug, Komet
+* invalide: Boeing 747, Magnet, Apfel
 
 ### Etwas Rundes
 ![](etwas_rundes.png) ![](etwas_rundes_2.png)
 
-* valide: 
-* invalide: 
+* valide: Kokosnuss, Perle, Globus
+* invalide: Pringlesdose, Schlange, Schutzschild
 
 ### Gruppenbezeichnung
 ![](gruppenbezeichnung.png) ![](gruppenbezeichnung_2.png)
 
-* valide: 
-* invalide: 
+* valide: Paar, Duo, Bande
+* invalide: Al-Qaida, ABBA, Bundesregierung
 
 ### Zeitspanne
 ![](zeitspanne.png) ![](zeitspanne_2.png)
 
-* valide: 
-* invalide: 
+* valide: Sekunde, Quartal, Dekade
+* invalide: Gestern, Mathestunde, Selbstfindungsphase
 
 ### Naturphänomen
 ![](naturphaenomen.png)
 
-* valide: 
-* invalide: 
+* valide: Regen, Donner, Nordlicht
+* invalide: Schwerkraft, Smog, Tiere
 
 ### Naturkatastrophe
 ![](naturkratastrophe.png) ![](naturkratastrophe_2.png)
 
-* valide: 
-* invalide: 
+* valide: Erdbeben, Hurrikan, Tsunami
+* invalide: Regen, Weltuntergang, Asteroid
 
 ### Katastrophe
 ![](naturkratastrophe_3.png) ![](naturkratastrophe_4.png)
 
-* valide: 
-* invalide: 
+* valide: Atomkrieg, Hungersnot, Börsencrash
+* invalide: Handyverlust, Stromausfall, Autopanne
 
 ### Undefiniert
 ![](rnd.png)
 
-* valide: 
-* invalide: 
+* valide: -
+* invalide: -
