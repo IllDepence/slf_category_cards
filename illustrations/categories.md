@@ -11,61 +11,61 @@
 ### Stadt
 ![](stadt.png)
 
-* valide: Québec, Xuchang, Yokohama
+* valide: Berlin, New York, Shanghai<!--Québec, Xuchang, Yokohama-->
 * invalide: Minas Tirith, Coruscant, Alabastia
 
 ### Land
 ![](land.png) ![](land_2.png)
 
-* valide: Costa Rica, Japan, Zypern
+* valide: Deutschland, Mexiko, Japan<!--Costa Rica, Japan, Zypern-->
 * invalide: Afrika, Holland, Narnia
 
 ### Fluss
 ![](fluss.png)
 
-* valide: Creuse, Yonne, Zwota
+* valide: Donau, Nil, Amazonas<!--Creuse, Yonne, Zwota-->
 * invalide: Golfstrom, Niagarafälle, Panamakanal
 
 ### Berg
 ![](berg.png) ![](berg_2.png) ![](berg_3.png)
 
-* valide: Cotopaxi, Jungfrau, Zugspitze
+* valide: Mount Everest, Kilimandscharo, Matterhorn<!--Cotopaxi, Jungfrau, Zugspitze-->
 * invalide: Bratpfannenberg, Himalaya, Schicksalsberg
 
 ### Tier
 ![](tier.png) ![](tier_2.png)
 
-* valide: Qualle, Stirnlappenbasilisk, Yak
+* valide: Katze, Adler, Spinne<!--Qualle, Stirnlappenbasilisk, Yak-->
 * invalide: Einhorn, Drache, Phönix
 
 ### Pflanze
 ![](pflanze.png)
 
-* valide: Quellgras, Quitte, Yucca
+* valide: Rose, Ahorn, Hagebutte<!--Quellgras, Quitte, Yucca-->
 * invalide: Ent, Koralle, Peitschende Weide
 
 ### Beruf
 ![](beruf.png) ![](beruf_2.png) ![](beruf_3.png)
 
-* valide: Chirurg, Journalist, Zahnarzt
-* invalide: Azubi, Löwenzüchter, Rentner
+* valide: Gärtner, Polizist, Lehrer<!--Chirurg, Journalist, Zahnarzt-->
+* invalide: Azubi, Marienkäferzüchter, Rentner
 
 ### Marke
 ![](marke_2.png)
 
-* valide: Qualcomm, Xiaomi, Yamaha
+* valide: Apple, Gucci, Lego<!--Qualcomm, Xiaomi, Yamaha-->
 * invalide: Macintosh, Oscorp, Passat
 
 ### Prominente Person
 ![](promi.png)
 
-* valide: Anthony Quinn, Donnie Yen, Carl Zeiss
+* valide: Albert Einstein, Marilyn Monroe, Edward Snowden<!--Anthony Quinn, Donnie Yen, Carl Zeiss-->
 * invalide: Krusty, Sherlock Holmes, Tony Stark
 
 ### Sportart
 ![](sport.png)
 
-* valide: Curling, Judo, Voltigieren
+* valide: Fußball, Tennis, Boxen<!--Curling, Judo, Voltigieren-->
 * invalide: Leichtathletik, Podrennen, Wettessen
 
 

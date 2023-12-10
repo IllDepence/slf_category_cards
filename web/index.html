@@ -1,0 +1,53 @@
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+  body {
+    background-color: #fafafa;
+  }
+  /* default 3 columns */
+  #open_cards {
+    width: 1177px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 389px);
+    gap: 5px;
+  }
+  /* two columns for screens narrower than (width of 3 cols + 10px) */
+  @media screen and (max-width: 1190px) {
+    #open_cards {
+      width: 783px;
+      grid-template-columns: repeat(2, 389px);
+    }
+  }
+  /* single column for screens narrower than (width of 2 cols + 10px) */
+  @media screen and (max-width: 803px) {
+    #open_cards {
+      width: 389px;
+      grid-template-columns: repeat(1, 389px);
+    }
+  }
+  /* shrinked single column for screens smaller than img with */
+  @media screen and (max-width: 399px) {
+    #open_cards {
+      width: 100%;
+      grid-template-columns: repeat(1, 100%);
+    }
+    #open_cards img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  </style>
+</head>
+<body>
+  <div id="open_cards">
+    <img src="card_imgs_600px/karte_back.png">
+    <img src="card_imgs_600px/karte_stadt.png">
+    <img src="card_imgs_600px/karte_land2.png">
+    <img src="card_imgs_600px/karte_fluss.png">
+    <img src="card_imgs_600px/karte_berg3.png">
+    <img src="card_imgs_600px/karte_sport.png">
+  </div>
+</body>
+<html>
