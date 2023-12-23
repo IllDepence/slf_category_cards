@@ -22,7 +22,7 @@ Prompt: `Isometric depiction of a letter 'L' floating against a stark white back
 Name: **fluss “f”** / “f” as in the German word for river (“Fluss”)  
 Prompt: `Isometric depiction of a letter 'F' floating against a stark white backdrop. This unique 'F' is not just a letter, but a medieval scaffolding in itself. Its contours and curves are filled with rushing waterfalls, greenery, and small makeshift mills that radiate chill colors, smooth, rounded shapes, and a playful, imaginative design. The scaffolding's composition within the 'F' form is layered, presenting elements in the front, middle, and back, creating an atmosphere of warmth and charm.`
 
-![](back.png) <img src="../web/card_imgs_600px/karte_castle.png" height="250px">  
+![](back.png) <img src="../web/card_imgs_600px/karte_back.png" height="250px"> <img src="../web/card_imgs_600px/karte_castle.png" height="250px">  
 Name: **rückseite** / back  
 Prompt: `An illustration depicting the back of a playing card. The design features a monochrome line pattern that is symmetrical both vertically and horizontally. In the center, there is a stylized silhouette of a simplified medieval city, also created using line art. The overall aesthetic should convey elegance and simplicity, with a focus on symmetry and clean lines.`
 
