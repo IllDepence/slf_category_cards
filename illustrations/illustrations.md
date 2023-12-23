@@ -26,7 +26,7 @@ Prompt: `Isometric depiction of a letter 'F' floating against a stark white back
 Name: **rückseite** / back  
 Prompt: `An illustration depicting the back of a playing card. The design features a monochrome line pattern that is symmetrical both vertically and horizontally. In the center, there is a stylized silhouette of a simplified medieval city, also created using line art. The overall aesthetic should convey elegance and simplicity, with a focus on symmetry and clean lines.`
 
-![](stadt.png) <img src="../web/card_imgs_600px/karte_.png" height="250px">  
+![](stadt.png) <img src="../web/card_imgs_600px/karte_stadt.png" height="250px">  
 Name: **stadt** / city  
 Prompt: `Illustration of a medieval city in an isometric view, placed on a small quadratic plate that's floating in mid-air against a pure white background. Ensure there is no shadow under the plate. The city has bright, saturated colors and smooth, rounded shapes for a soft, friendly appearance. The structures are simplified and stylized, hinting at a playful and imaginative atmosphere. The scene avoids intricate details, focusing instead on bold shapes and silhouettes. The composition is layered with elements in the foreground, middle-ground, and background, giving depth to the scene. The overall ambiance is one of wonder, warmth, and coziness.`
 
@@ -78,7 +78,7 @@ Prompt: `Illustration showcasing three medieval figures on a small piece of flat
 Name: **beruf** / profession  
 Prompt: `Illustration set in a floating isometric square in a medieval setting, showcasing three small diverse groups of people. The first group consists of a man and a woman practicing archery, with bows and arrows in hand, aiming at distant targets. The second group, with two women and a man, is engaged in jousting, wearing armor and holding lances atop horses. The third group, comprising two men and a woman, is partaking in falconry, with each person holding a bird of prey on their arm.`
 
-![](marke_2.png) <img src="../web/card_imgs_600px/karte_marke2.png" height="250px">  
+![](marke_2.png) <img src="../web/card_imgs_600px/karte_marke.png" height="250px">  
 Name: **marke** / brand  
 Prompt: `Illustration set within a floating isometric square showcasing a medieval narrow street corner against a white background. Prominently displayed on the corner are large sigils of different trades, each designed to evoke the feel of modern brand logos. The scene blends the medieval ambiance with a touch of contemporary design, using bright colors and smooth, rounded forms. The overall composition is playful and imaginative, focusing on the sigils as the main attraction.`
 
@@ -90,7 +90,7 @@ Prompt: `Illustration of a small isometric square floating in front of a white b
 Name: **sportart** / type of sport  
 Prompt: `Illustration set in an isometric square floating on a white backdrop. The scene, inspired by a medieval ambiance, showcases three individuals: a European archer taking aim with his bow, a weightlifter of Hispanic descent showcasing his strength by lifting a massive weight, and a ballet dancer of Middle Eastern descent elegantly dancing in the center. The entire scene is adorned with vivid colors, and the characters are depicted with stylized, simplified details in line with the medieval art style.`
 
-![](kleidungsstueck.png) <img src="../web/card_imgs_600px/karte_kleidungsstueck.png" height="250px">  
+![](kleidungsstueck.png) <img src="../web/card_imgs_600px/karte_kleidung.png" height="250px">  
 Name: **kleidungsstück** / clothing item  
 Prompt: `Illustration depicting an isometric view of a medieval-styled room on a floating quadratic plate against a stark white backdrop with no shadow. In this room, a young woman is exploring a collection of different clothing options. She holds up a dress while examining it, and around her are other medieval garments spread out. The scene is filled with bright, saturated hues, and the designs are smooth and rounded, exuding a sense of warmth and coziness.`
 
@@ -130,7 +130,7 @@ Prompt: `Isometric view illustration on a floating square set in a medieval them
 Name: **flüssigkeit** / liquid  
 Prompt: `Illustration of an isometric square floating in a white background. The square portrays a medieval setting with a piece of land that has a flowing stream of water. On this land, there's a bottle of milk placed next to a small puddle of lava. Nearby, there's a glass filled with red wine. The colors are bright and saturated, with smooth, rounded shapes giving a soft and friendly appearance.`
 
-![](fortbewegungsmittel.png) <img src="../web/card_imgs_600px/karte_fortbewegungsmittel.png" height="250px">  
+![](fortbewegungsmittel.png) <img src="../web/card_imgs_600px/karte_forbewegungsmittel.png" height="250px">  
 Name: **fortbewegungsmittel** / mode of transportation  
 Prompt: `Illustration depicting a floating isometric square with a medieval ambiance against a stark white backdrop. The square showcases three modes of medieval transportation: a detailed chariot resting on the ground, a wooden rowing boat navigating a calm river, and a colorful hot air balloon hovering in the sky. The designs use bright and saturated colors, smooth shapes, and simplified forms to create a warm, cozy, and imaginative setting.`
 
@@ -146,7 +146,7 @@ Prompt: `Illustration showing a floating isometric square with no shadow, set in
 Name: **himmelskörper** / celestial body  
 Prompt: `Illustration set within a floating isometric square in a medieval art style. Depicting the cosmos as imagined in ancient times, the scene includes the sun, Saturn with its distinct rings, a moon, and a comet. Each celestial body has indications of their trajectories, reminiscent of old depictions where the heavens are visualized as a half-circle enclosure above the Earth. The overall design should convey the charm of antique astronomical drawings with a playful and imaginative setting.`
 
-![](bauwerk.png) <img src="../web/card_imgs_600px/karte_bauwerk.png" height="250px">  
+![](bauwerk.png) <img src="../web/card_imgs_600px/karte_gebaeude.png" height="250px">  
 Name: **gebäudeart** / type of building  
 Prompt: `Illustration depicting a floating isometric square set in a medieval ambiance. This square holds four distinct structures: a vibrant church with rounded features, a stone prison with barred windows, a simple wooden hut with a thatched roof, and a stable fit for animals. The design is characterized by bright colors, stylized forms, and an absence of intricate details, all set against a stark white backdrop.`
 
@@ -154,15 +154,15 @@ Prompt: `Illustration depicting a floating isometric square set in a medieval am
 Name: **stromquelle** / source of electricity  
 Prompt: `An isometric illustration of a floating square against a white backdrop, featuring a medieval theme. This square depicts a piece of land under a damp atmosphere with a thunderstorm cloud overhead from which realistic lightning is striking down. An electric eel is residing within a small pond on this land. Additionally, there is a lemon placed upon a small patch of dirt, with a piece of zinc and copper sticking out of the lemon. The illustration has saturated colors and a stylized, layered composition that evokes a sense of wonder and imagination.`
 
-![](tier_faehigkeit.png) <img src="../web/card_imgs_600px/karte_tier_faehigkeit.png" height="250px">  
+![](tier_faehigkeit.png) <img src="../web/card_imgs_600px/karte_tierfaehigkeit.png" height="250px">  
 Name: **tierische fähigkeit** / animal ability  
 Prompt: `Illustration of an isometric square floating against a pure white background. Within the square, a bioluminescent jellyfish in a medieval underwater setting is depicted. The swift creature is surrounded by an aura of soft, glowing light, illuminating a sunken treasure chest and scattered coins on the ocean floor. Corals in the backdrop add to the mysterious ambiance. The light from the bioluminescent creature casts a serene glow on its surroundings, creating a contrast with the dark depths of the sea. The colors are bright and saturated, highlighting the luminous blues, greens, and purples of the creature and its environment. The shapes are smooth and rounded, capturing the fluidity of underwater life. The entire scene exudes warmth and coziness, turning a deep-sea scenario into a comforting and enchanting spectacle. The background is pure white.`
 
-![](chemisches_element.png) <img src="../web/card_imgs_600px/karte_chemisches_element.png" height="250px">  
+![](chemisches_element.png) <img src="../web/card_imgs_600px/karte_chem_element.png" height="250px">  
 Name: **chemisches element** / chemical element  
 Prompt: `Create an illustration in an isometric view of an oddly shaped storage frame, floating against a white backdrop, with no shadow. This frame is part of a medieval setting and is filled with containers and shelves of various sizes and shapes. It holds a collection of all chemical elements in their natural forms, including solid rocks and crystals, liquids in medieval-style glassware, and gases contained in transparent, sealed vessels. The style should be consistent with bright, saturated colors, smooth shapes, and stylized, simplified forms, evoking a sense of wonder and an imaginative atmosphere.`
 
-![](chemisches_element_2.png) <img src="../web/card_imgs_600px/karte_chemisches_element2.png" height="250px">  
+![](chemisches_element_2.png) <img src="../web/card_imgs_600px/karte_chem_element2.png" height="250px">  
 Name: **chemisches element** / chemical element  
 Prompt: `Create an isometric illustration of an oddly shaped storage frame floating against a white background with no shadow, in a medieval style. The frame should have containers and shelves of different sizes and shapes, each holding the chemical elements in their natural forms: solid rocks and crystals, liquids in medieval-style vials, and gases in transparent, sealed containers. The artwork should have bright, saturated colors and smooth, rounded shapes with a playful and imaginative feel. There should be no intricate details, focusing instead on the bold shapes and layered composition of the elements within the frame.`
 
@@ -170,19 +170,19 @@ Prompt: `Create an isometric illustration of an oddly shaped storage frame float
 Name: **gesteinsart** / type of rock or mineral  
 Prompt: `Illustration of an isometric square, floating against a pure white background, set in a medieval style. Within the square is a craggy landscape featuring an entry to a mine shaft. Scattered around the entrance are deposits of gold, quartz, amethyst, and coal. The colors are bright and saturated, and the shapes of the minerals are smooth and rounded, evoking a sense of wonder and curiosity.`
 
-![](etwas_das_fliegt.png) <img src="../web/card_imgs_600px/karte_etwas_das_fliegt.png" height="250px">  
+![](etwas_das_fliegt.png) <img src="../web/card_imgs_600px/karte_etw_das_fliegt.png" height="250px">  
 Name: **etwas das fliegt ** / something that flies  
 Prompt: `Illustration of an isometric square floating against a pure white background. Within the square, a small meadow in a medieval setting is depicted. On a meadow on the right, stands a dome shaped yellow bee hive with entrance, busy bees buzzing around are making honey. Opposite of the hive on the left, a blue green hummingbird is feeding in a flower. In the sky there are clouds. The colors are bright and saturated, the shapes are smooth and rounded, and the entire scene exudes warmth and coziness.`
 
-![](etwas_das_fliegt_2.png) <img src="../web/card_imgs_600px/karte_etwas_das_fliegt2.png" height="250px">  
+![](etwas_das_fliegt_2.png) <img src="../web/card_imgs_600px/karte_etw_das_fliegt2.png" height="250px">  
 Name: **etwas das fliegt** / something that flies  
 Prompt: `Illustration of an isometric square floating against a pure white background. Within the square, a small meadow in a medieval setting is depicted. On a meadow on the right, stands a dome shaped yellow bee hive with entrance, busy bees buzzing around are making honey. Opposite of the hive on the left, a blue green hummingbird is feeding in a flower. In the sky there are small bees and huge fire ball flaming meteorites striking down into the meadow, wreaking havoc. The colors are bright and saturated, the shapes are smooth and rounded, and the entire scene exudes warmth and coziness.`
 
-![](etwas_rundes.png) <img src="../web/card_imgs_600px/karte_etwas_rundes.png" height="250px">  
+![](etwas_rundes.png) <img src="../web/card_imgs_600px/karte_etw_rundes.png" height="250px">  
 Name: **etwas rundes** / something round  
 Prompt: `Illustration with bright and saturated style, depicting an isometric square floating against a white background. The square features a wooden tabletop with a medieval ambiance. On the left side of the table is a round coconut, unopened. In the middle of the table is an ancient globe. On the right hand side of the table sits an oyster with a pearl nestled within it. Each object is stylized and simplified, retaining the playful and imaginative feel of the setting, with a focus on bold shapes and a layered composition that adds depth.`
 
-![](etwas_rundes_2.png) <img src="../web/card_imgs_600px/karte_etwas_rundes2.png" height="250px">  
+![](etwas_rundes_2.png) <img src="../web/card_imgs_600px/karte_etw_rundes2.png" height="250px">  
 Name: **etwas rundes** / something round  
 Prompt: `Illustration with bright and saturated style, depicting an isometric square floating against a white background. The square features a wooden tabletop with a medieval ambiance. On the left side of the table is a round coconut. In the middle of the table is an ancient globe. On the right hand side of the table sits an oyster shell with a pearl nestled within it. In the font is a small tipped over cloth bag out of which green peas are spilling out on the desk. Each object is stylized and simplified, retaining the playful and imaginative feel of the setting, with a focus on bold shapes and a layered composition that adds depth.`
 

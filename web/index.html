@@ -82,7 +82,7 @@ cats = [
   //'land',
   'land2',
   'marke',
-  'nautrphaenomen',
+  'naturphaenomen',
   'naturkatastrophe',
   //'naturkatastrophe2',
   //'naturkatastrophe3',
@@ -104,6 +104,22 @@ cats = [
   'zeitspanne',
   //'zeitspanne2',
 ]
+
+/*
+ * TODO
+ * - set deck z-index to 999 (= topmost)
+ * - manage grid position of cards manually in JS
+ * - slide cards out from under the deck
+ * - slide cards from deck to right,
+ *   from rightmost column down
+ *   then left etc.
+ *   D--->---v
+ *   v---<---<
+ *   >---> ...
+ *
+ *
+ */
+
 // create click listener on the card deck to draw cards
 document.getElementById('deck').addEventListener('click', function() {
   var grid = document.getElementById('card_grid');
