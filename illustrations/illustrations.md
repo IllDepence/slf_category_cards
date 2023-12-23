@@ -10,7 +10,7 @@
 
 ### Overview
 
-![](stadt_s.png) ![](../web/card_imgs_600px/karte_s.png)  
+![](stadt_s.png) <img src="../web/card_imgs_600px/karte_s.png" height="250px">  
 Name: **stadt “s”** / “s” as in the German word for city (“Stadt”)  
 Prompt: `Isometric depiction of a letter 'S' floating against a stark white backdrop. This unique 'S' is not just a letter, but a medieval townscape in itself. Its contours and curves are filled with buildings and greenery that radiate warm colors, smooth, rounded shapes, and a playful, imaginative design. The town's composition within the 'S' form is layered, presenting elements in the front, middle, and back, creating an atmosphere of warmth and charm.`
 
