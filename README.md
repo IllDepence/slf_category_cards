@@ -8,9 +8,13 @@
 
 Bei *Stadt, Land, Fluss* kann es dauern, bis man sich Kategorien ausgedacht bzw. auf eine Auswahl geeinigt hat. Die Kategoriekarten können dazu verwendet werden, per Zufall die Kategorien festzulegen, oder sich bei der manuellen Auswahl inspirieren zu lassen.
 
+**[&gt; Online-Version &lt;](https://illdepence.github.io/slf_category_cards/)**
+
 ## Daten
 
-* [**Übersicht**](illustrations/illustrations.md) - eine Übersicht aller Motive, inklusive Kategorienamen und Prompts
+* [**Übersicht**]
+    * [Karten](illustrations/illustrations.md) - eine Übersicht aller Karten, inklusive Kategorienamen und Prompts
+    * [Kategorien](illustrations/illustrations.md) - eine Übersicht aller Kategorien
 * **Print**
     * In `pdf/` liegen PDFs für die Kartenvorderseiten, -rückseite, sowie die Box
     * Drucken lassen bei [meinspiel.de](https://www.meinspiel.de/selbstgestaltete-spielkarten-mit-fotos-gestalten-drucken/) als *100% individuelle Spielkarten - 55 Karten - 59x91 mm*
@@ -36,9 +40,13 @@ Bei *Stadt, Land, Fluss* kann es dauern, bis man sich Kategorien ausgedacht bzw.
 
 When deciding to play *Stadt, Land, Fluss* it can take quite some time to think of or decide on the categories to play with. The cards can be used to either randomly chose categories, or look through them for inspiration.
 
+**[&gt; online version &lt;](https://illdepence.github.io/slf_category_cards/)**
+
 ## Data
 
-* [**Overview**](illustrations/illustrations.md) - overview with all illustrations, including category names and prompts
+* [**Overview**]
+    * [Cards](illustrations/illustrations.md) - overview of all cards, including category names and prompts
+    * [Categories](illustrations/illustrations.md) - overview of all categories (German only)
 * **Print**
     * `pdf/` contains PDFs for the card fonts, back, as well as the card box
     * Print ordered at [meinspiel.de](https://www.meinspiel.de/selbstgestaltete-spielkarten-mit-fotos-gestalten-drucken/) as *100% individuelle Spielkarten - 55 Karten - 59*91 mm*
