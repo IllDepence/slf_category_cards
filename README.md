@@ -12,9 +12,9 @@ Bei *Stadt, Land, Fluss* kann es dauern, bis man sich Kategorien ausgedacht bzw.
 
 ## Daten
 
-* [**Übersicht**]
+* **Übersicht**
     * [Karten](illustrations/illustrations.md) - eine Übersicht aller Karten, inklusive Kategorienamen und Prompts
-    * [Kategorien](illustrations/illustrations.md) - eine Übersicht aller Kategorien
+    * [Kategorien](illustrations/categories.md) - eine Übersicht aller Kategorien
 * **Print**
     * In `pdf/` liegen PDFs für die Kartenvorderseiten, -rückseite, sowie die Box
     * Drucken lassen bei [meinspiel.de](https://www.meinspiel.de/selbstgestaltete-spielkarten-mit-fotos-gestalten-drucken/) als *100% individuelle Spielkarten - 55 Karten - 59x91 mm*
@@ -44,9 +44,9 @@ When deciding to play *Stadt, Land, Fluss* it can take quite some time to think 
 
 ## Data
 
-* [**Overview**]
+* **Overview**
     * [Cards](illustrations/illustrations.md) - overview of all cards, including category names and prompts
-    * [Categories](illustrations/illustrations.md) - overview of all categories (German only)
+    * [Categories](illustrations/categories.md) - overview of all categories (German only)
 * **Print**
     * `pdf/` contains PDFs for the card fonts, back, as well as the card box
     * Print ordered at [meinspiel.de](https://www.meinspiel.de/selbstgestaltete-spielkarten-mit-fotos-gestalten-drucken/) as *100% individuelle Spielkarten - 55 Karten - 59*91 mm*
