@@ -9,6 +9,40 @@
     grid-column: 1;
     grid-row: 1;
   }
+  .card_container {
+    width: 389px;
+    /**
+     * makes .card_hover position absolute
+     * word relative to container instead
+     * of relative to some element higher
+     * up the DOM
+     */
+    position: relative;
+  }
+  .card_hover {
+    width: 389px;
+    height: 420px;
+    position: absolute;
+    top: 15%;
+    opacity: 0;
+    z-index: 999;
+    background-color: #555;
+    transition: .5s ease;
+  }
+  .card_hover:hover {
+    opacity: 0.6;
+  }
+  .card_text {
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    font-size: 1.5em;
+    font-family: sans-serif;
+  }
+  .card_cat {
+    font-size: 1.2em;
+    font-weight: 500;
+  }
   /* default 3 columns */
   #card_grid {
     width: 1177px;
@@ -17,8 +51,7 @@
     grid-template-columns: repeat(3, 389px);
     gap: 5px;
     transform-style: preserve-3d;
-    transition: transform 0.5s;
-  }
+    transition: transform 0.5s; }
   /* two columns for screens narrower than (width of 3 cols + 10px) */
   @media screen and (max-width: 1190px) {
     #card_grid {
@@ -48,7 +81,16 @@
 </head>
 <body>
   <div id="card_grid">
-    <img id="deck" src="card_imgs_600px/karte_back.png">
+    <div class="card_container">
+      <img id="deck" src="card_imgs_600px/karte_back.png">
+      <div class="card_hover">
+        <div class="card_text">
+          <span class="card_cat">Prominente Person</span><br><br>
+          <strong>gültig</strong><br>Albert Einstein, Marilyn Monroe, Edward Snowden<br><br>
+          <strong>ungültig</strong><br>Krusty, Sherlock Holmes, Tony Stark
+        </div>
+      </div>
+    </div>
   </div>
 </body>
 
@@ -157,18 +199,25 @@ document.getElementById('deck').addEventListener('click', function() {
       card_back.remove();
   }, 550);
   // second half of card flip
+  // create card_ container
+  var card_cntnr = document.createElement('div');
+  card_cntnr.className = "card_container";
+  var card_hvr = document.createElement('div');
+  card_hvr.className = "card_hover";
   var card = document.createElement('img');
   card.src = card_src;
   card.style.transformStyle = 'preserve-3d';
   card.style.transform = 'rotateY(-90deg)';
   card.style.transition = 'transform 0.5s';
+  card_cntnr.appendChild(card_hvr);
+  card_cntnr.appendChild(card);
   setTimeout(() => {
       if (cats.length == 0) {
-        grid.insertBefore(card, grid.children[0]);
+        grid.insertBefore(card_cntnr, grid.children[0]);
       } else if (grid.children.length == 1) {
-        grid.appendChild(card);
+        grid.appendChild(card_cntnr);
       } else {
-        grid.insertBefore(card, grid.children[1]);
+        grid.insertBefore(card_cntnr, grid.children[1]);
       }
       setTimeout(() => {
           card.style.transform = 'rotateY(0deg)';
