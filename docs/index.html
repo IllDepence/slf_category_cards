@@ -1,3 +1,4 @@
+<!doctype html>
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -19,7 +20,7 @@
      */
     position: relative;
   }
-  .card_hover {
+  .card_hover_basic {
     width: 389px;
     height: 420px;
     position: absolute;
@@ -29,7 +30,7 @@
     background-color: #555;
     transition: .5s ease;
   }
-  .card_hover:hover {
+  .card_hover_active:hover {
     opacity: 0.6;
   }
   .card_text {
@@ -83,7 +84,7 @@
   <div id="card_grid">
     <div class="card_container">
       <img id="deck" src="card_imgs_600px/karte_back.png">
-      <div class="card_hover">
+      <div class="card_hover_basic card_hover_active">
         <div class="card_text">
           <span class="card_cat">Prominente Person</span><br><br>
           <strong>gültig</strong><br>Albert Einstein, Marilyn Monroe, Edward Snowden<br><br>
@@ -203,7 +204,7 @@ document.getElementById('deck').addEventListener('click', function() {
   var card_cntnr = document.createElement('div');
   card_cntnr.className = "card_container";
   var card_hvr = document.createElement('div');
-  card_hvr.className = "card_hover";
+  card_hvr.className = "card_hover_basic";
   var card = document.createElement('img');
   card.src = card_src;
   card.style.transformStyle = 'preserve-3d';
@@ -222,6 +223,9 @@ document.getElementById('deck').addEventListener('click', function() {
       setTimeout(() => {
           card.style.transform = 'rotateY(0deg)';
       }, 50);
+      setTimeout(() => {
+          card_hvr.classList.add('card_hover_active');
+      }, 500);
   }, 550);
 });
 </script>
