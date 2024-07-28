@@ -12,6 +12,12 @@
   }
   .card_container {
     width: 389px;
+    height: 100%;
+    /**
+     * compensate for height 100% taking up
+     * the 5px grid gap for some reason
+     */
+    margin-bottom: -5px;
     /**
      * makes .card_hover position absolute
      * word relative to container instead
@@ -39,6 +45,7 @@
     padding: 25px;
     font-size: 1.5em;
     font-family: sans-serif;
+    text-shadow: #000 0 0 5px;
   }
   .card_cat {
     font-size: 1.2em;
@@ -82,74 +89,65 @@
 </head>
 <body>
   <div id="card_grid">
-    <div class="card_container">
-      <img id="deck" src="card_imgs_600px/karte_back.png">
-      <div class="card_hover_basic card_hover_active">
-        <div class="card_text">
-          <span class="card_cat">Prominente Person</span><br><br>
-          <strong>gültig</strong><br>Albert Einstein, Marilyn Monroe, Edward Snowden<br><br>
-          <strong>ungültig</strong><br>Krusty, Sherlock Holmes, Tony Stark
-        </div>
-      </div>
-    </div>
+    <img id="deck" src="card_imgs_600px/karte_back.png">
   </div>
 </body>
 
 <script>
 cats = [
-  'behaelter',
-  //'berg',
-  'berg2',
-  //'berg3',
-  //'beruf',
-  //'beruf2',
-  'beruf3',
-  'buch',
-  'chem_element',
-  //'chem_element2',
-  'etw_das_fliegt',
-  //'etw_das_fliegt2',
-  'etw_rundes',
-  //'etw_rundes2',
-  'fiktives_werk',
-  'fluessigkeit',
-  'fluss',
-  'forbewegungsmittel',
-  'gebaeude',
-  'gestein',
-  'gruppenbezeichnung',
-  //'gruppenbezeichnung2',
-  'himmelskoerper',
-  'kleidung',
-  'krankheit',
-  //'land',
-  'land2',
-  'marke',
-  'naturphaenomen',
-  'naturkatastrophe',
-  //'naturkatastrophe2',
-  //'naturkatastrophe3',
-  //'naturkatastrophe4',
-  'pflanze',
-  'promi',
-  'spiel',
-  'sport',
-  'sprache',
-  'stadt',
-  'straftat',
-  'stromquelle',
-  'tierfaehigkeit',
-  //'tier',
-  'tier2',
-  'waehrung',
-  'waffe',
-  'werkzeug',
-  'zeitspanne',
-  //'zeitspanne2',
+  { id: 'behaelter', name: 'Behälter', valid: 'Becher, Rucksack, Container', invalid: 'Mund, Samsonite-Koffer, Zimmer' },
+  //{ id: 'berg', name: '', valid: '', invalid: '' },
+  { id: 'berg2', name: 'Berg', valid: 'Mount Everest, Kilimandscharo, Matterhorn', invalid: 'Bratpfannenberg, Himalaya, Schicksalsberg' },
+  //{ id: 'berg3', name: '', valid: '', invalid: '' },
+  //{ id: 'beruf', name: '', valid: '', invalid: '' },
+  //{ id: 'beruf2', name: '', valid: '', invalid: '' },
+  { id: 'beruf3', name: 'Beruf', valid: 'Gärtner, Polizist, Lehrer', invalid: 'Azubi, Marienkäferzüchter, Rentner' },
+  { id: 'buch', name: 'Buch', valid: 'Die Bibel, Hamlet, Alice im Wunderland', invalid: 'Kindle, New York Times, Zur Elektrodynamik bewegter Körper' },
+  { id: 'chem_element', name: 'Chemisches Element', valid: 'Wasserstoff, Helium, Eisen', invalid: 'Messing, Unobtainium, Wasser' },
+  //{ id: 'chem_element2', name: '', valid: '', invalid: '' },
+  { id: 'etw_das_fliegt', name: 'Etwas das Fliegt', valid: 'Biene, Flugzeug, Komet', invalid: 'Boeing 747, Magnet, Apfel' },
+  //{ id: 'etw_das_fliegt2', name: '', valid: '', invalid: '' },
+  { id: 'etw_rundes', name: 'Etwas Rundes', valid: 'Kokosnuss, Perle, Globus', invalid: 'Pringlesdose, Schlange, Schutzschild' },
+  //{ id: 'etw_rundes2', name: '', valid: '', invalid: '' },
+  { id: 'fiktives_werk', name: 'Fiktives Werk', valid: 'Star Wars, Krieg und Frieden, Pokemon', invalid: 'Eine kurze Geschichte der Zeit, Heiliger Krieg, Tagesschau' },
+  { id: 'fluessigkeit', name: 'Flüssigkeit', valid: 'Wasser, Benzin, Tinte', invalid: 'Apfelsaft, Pepsi, Stickstoff' },
+  { id: 'fluss', name: 'Fluss', valid: 'Donau, Nil, Amazonas', invalid: 'Golfstrom, Niagarafälle, Panamakanal' },
+  { id: 'forbewegungsmittel', name: 'Fortbewegungsmittel', valid: 'Fahrrad, Auto, Flugzeug', invalid: 'Jeep, Mitfahrgelegenheit, Uber' },
+  { id: 'gebaeude', name: 'Gebäudeart', valid: 'Wohnhaus, Bahnhof, Wolkenkratzer', invalid: 'Pentagon, Wohnsieldung, Designerhaus' },
+  { id: 'gestein', name: 'Gesteinsart', valid: 'Marmor, Smaragd, Kohle', invalid: 'Beton, Fels, Kiesel' },
+  { id: 'gruppenbezeichnung', name: 'Gruppenbezeichnung', valid: 'Paar, Duo, Bande', invalid: 'Al-Qaida, ABBA, Bundesregierung' },
+  //{ id: 'gruppenbezeichnung2', name: '', valid: '', invalid: '' },
+  { id: 'himmelskoerper', name: 'Himmelskörper', valid: 'Mars, Mond, Milchstraße', invalid: 'Wolke, Gasriese, Schwarzes Loch' },
+  { id: 'kleidung', name: 'Kleidungsstück', valid: 'Jogginghose, Strohhut, Schal', invalid: 'Superman-Kostüm, Rammstein-T-Shirt, Ziegenfell-Jacke' },
+  { id: 'krankheit', name: 'Krankheit', valid: 'Malaria, Krebs, Lepra', invalid: 'Juckreiz, Knochenbruch, Rücken' },
+  //{ id: 'land', name: '', valid: '', invalid: '' },
+  { id: 'land2', name: 'Land', valid: 'Deutschland, Mexiko, Japan', invalid: 'Afrika, Holland, Narnia' },
+  { id: 'marke', name: 'Marke', valid: 'Apple, Gucci, Lego', invalid: 'Macintosh, Oscorp, Passat' },
+  { id: 'naturphaenomen', name: 'Naturphänomen', valid: 'Regen, Donner, Nordlicht', invalid: 'Schwerkraft, Smog, Tiere' },
+  { id: 'naturkatastrophe', name: 'Naturkatastrophe', valid: 'Erdbeben, Hurrikan, Tsunami', invalid: 'Regen, Weltuntergang, Asteroid' },
+  //{ id: 'naturkatastrophe2', name: '', valid: '', invalid: '' },
+  //{ id: 'naturkatastrophe3', name: '', valid: '', invalid: '' },
+  //{ id: 'naturkatastrophe4', name: '', valid: '', invalid: '' },
+  { id: 'pflanze', name: 'Pflanze', valid: 'Rose, Ahorn, Hagebutte', invalid: 'Ent, Koralle, Peitschende Weide' },
+  { id: 'promi', name: 'Prominente Person', valid: 'Albert Einstein, Marilyn Monroe, Edward Snowden', invalid: 'Krusty, Sherlock Holmes, Tony Stark' },
+  { id: 'spiel', name: 'Spiel', valid: 'Schach, Poker, Monopoly', invalid: 'Lego, Telefonstreich, Weitsprung' },
+  { id: 'sport', name: 'Sportart', valid: 'Fußball, Tennis, Boxen', invalid: 'Leichtathletik, Podrennen, Wettessen' },
+  { id: 'sprache', name: 'Sprache', valid: 'Deutsch, Englisch, Spanisch', invalid: 'Bolivianisch, Indisch, Plattdeutsch' },
+  { id: 'stadt', name: 'Stadt', valid: 'Berlin, New York, Shanghai', invalid: 'Minas Tirith, Coruscant, Alabastia' },
+  { id: 'straftat', name: 'Straftat', valid: 'Dienbstahl, Mord, Steuerhinterziehung', invalid: 'Bananen-Diebstahl, Lügen, Supermarkt-Einbruch' },
+  { id: 'stromquelle', name: 'Stromquelle', valid: 'elektrischer Aal, Dynamo, Batterie', invalid: 'Duracell, Ladekabel, Flux-Kondensator' },
+  { id: 'tierfaehigkeit', name: 'Tierische Fähigkeit', valid: 'Fliegen, Echolokation, Biolumineszenz', invalid: 'Feuerspeien, Unsichtbarkeit, Laufen' },
+  //{ id: 'tier', name: '', valid: '', invalid: '' },
+  { id: 'tier2', name: 'Tier', valid: 'Katze, Adler, Spinne', invalid: 'Einhorn, Drache, Phönix' },
+  { id: 'waehrung', name: 'Währung', valid: 'Euro, US-Dollar, Rubel', invalid: 'Credits, Goldstücke, Scheine' },
+  { id: 'waffe', name: 'Waffe', valid: 'Schwert, Pistole, Bombe', invalid: 'Faust, Glasscherbe, Stift' },
+  { id: 'werkzeug', name: 'Werkzeug', valid: 'Hammer, Zange, Feile', invalid: 'Bosch-Flex, Hand, Leatherman' },
+  { id: 'zeitspanne', name: 'Zeitspanne', valid: 'Sekunde, Quartal, Dekade', invalid: 'Gestern, Mathestunde, Selbstfindungsphase' }
+  //{ id: 'zeitspanne2', name: '', valid: '', invalid: '' },
 ]
 
-/*
- * TODO
+/**
+ * idea for more realistic animation
  * - set deck z-index to 999 (= topmost)
  * - manage grid position of cards manually in JS
  * - slide cards out from under the deck
@@ -159,8 +157,6 @@ cats = [
  *   D--->---v
  *   v---<---<
  *   >---> ...
- *
- *
  */
 
 // create click listener on the card deck to draw cards
@@ -174,7 +170,7 @@ document.getElementById('deck').addEventListener('click', function() {
     document.getElementById('deck').remove();
   }
   // pre-load card_front image
-  card_src = 'card_imgs_600px/karte_' + cat + '.png';
+  card_src = 'card_imgs_600px/karte_' + cat['id'] + '.png';
   var img = new Image();
   img.src = card_src;
   // create new card (back first)
@@ -200,11 +196,17 @@ document.getElementById('deck').addEventListener('click', function() {
       card_back.remove();
   }, 550);
   // second half of card flip
-  // create card_ container
+  // create card_ container and hover
   var card_cntnr = document.createElement('div');
   card_cntnr.className = "card_container";
   var card_hvr = document.createElement('div');
   card_hvr.className = "card_hover_basic";
+  card_hvr.innerHTML = ``
+    + `<div class="card_text">`
+    +   `<span class="card_cat">${cat['name']}</span><br><br>`
+    +   `<strong>gültig</strong><br>${cat['valid']}<br><br>`
+    +   `<strong>ungültig</strong><br>${cat['invalid']}`
+    + `</div>`;
   var card = document.createElement('img');
   card.src = card_src;
   card.style.transformStyle = 'preserve-3d';
